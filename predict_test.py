@@ -11,7 +11,8 @@ match = {
     "uEFa": "active"
 }
 
-url = 'http://localhost:9696/predict'
+#url = 'http://localhost:9696/predict'
+url = 'https://klopp-s-liverp-prod-klopp-s-liverpool-hql7qt.mo4.mogenius.io/predict'
 response = requests.post(url, json=match)
 result = response.json()
 print(result)
