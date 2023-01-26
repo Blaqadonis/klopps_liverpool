@@ -2,13 +2,13 @@ import requests
 import json
 
 match = {
-    "Date": "15-9-2022",
-    "Form": "poor",
+    "Date": "21-01-2023",
+    "Form": "decent",
     "Opposition": "tough",
-    "season": "late",
+    "season": "middle",
     "venue": "home",
     "Previous match": "0",
-    "uEFa": "inactive"
+    "uEFa": "active"
 }
 
 url = 'http://localhost:9696/predict'
